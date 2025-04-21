@@ -12,4 +12,4 @@ RUN apt-get update && apt-get install -y \
 RUN pip install --no-cache-dir playwright && playwright install chromium
 
 WORKDIR /app
-CMD ["bash"]
+CMD ["bashh"]
